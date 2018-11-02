@@ -15,7 +15,11 @@ Description de l'API BBWS
 
 
 # Importation du projet
-1. 
+1. Créer une arborescence \<root\>/Documents/Developpement/Bbws/
+2. `git config --global user.name bebetterwithstats@gmail.com`
+3. `git clone <mettre_ici_url_du_git_project>`
+4. Se positionner en ligne de commande dans le répertoire nouvelement créé
+5. `mvn eclipse:eclipse`
 
 # Modification d'un projet
 1. 
@@ -23,9 +27,16 @@ Description de l'API BBWS
 
 # Initialiation du projet si le projet est vide
 1. `mvn archetype:generate`
-2. choisir 1685 ou 1682 ou 593 ou 7 
+2. choisir 1685 ou 1682 ou 593 ou 7 // 593 a été utilisé la première fois
 
 
+# Lancer / Executer l'application
+1. `mvn exec:java`
+2. pour tester
+   - ouvrir le navigateur et taper `http://localhost:8080/`
+   - dans un terminal `curl -X GET "localhost:8080/"`
+   - le message suivant devrait s'afficher
+   > Welcome on the <b>Be Better With Statistics</b> API !<br>
 
 
 # Documentation ElasticSearchAPI

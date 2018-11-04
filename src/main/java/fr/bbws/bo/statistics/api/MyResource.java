@@ -30,7 +30,7 @@ import com.google.gson.GsonBuilder;
 /** 
  * Example resource class hosted at the URI path "/welcome"
  */
-@Path("/welcome")
+@Path("/bbws")
 public class MyResource {
     
 	final static Logger logger = LogManager.getLogger(MyResource.class.getName());
@@ -51,7 +51,7 @@ public class MyResource {
     @SuppressWarnings("resource")
 	@GET 
     @Produces(MediaType.APPLICATION_JSON)
-    @Path("lastplays")
+    @Path("plays")
     public String getLastPlays(@QueryParam("player-id") String playerID) {
     	
     	logger.entry(playerID);

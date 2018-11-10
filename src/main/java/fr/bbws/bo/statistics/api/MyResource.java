@@ -19,9 +19,11 @@ import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.TransportAddress;
+import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.sort.SortOrder;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 
 import com.google.gson.Gson;
@@ -51,10 +53,11 @@ public class MyResource {
     @SuppressWarnings("resource")
 	@GET 
     @Produces(MediaType.APPLICATION_JSON)
-    @Path("plays")
-    public String getLastPlays(@QueryParam("player-id") String playerID) {
+    @Path("pa")
+    public String getPlateAppearance(@QueryParam("player") String p_playerID) {
     	
-    	logger.entry(playerID);
+    	logger.entry(p_playerID);
+    	// TODO gérer l'absence de query param
     	
     	List<Object> result = new ArrayList<Object>(); // the ES search result
 		
@@ -81,15 +84,16 @@ public class MyResource {
 		// correspondant au parametre de la requete REST
 		SearchResponse response = client.prepareSearch("baseball-eu")
 		        .setSearchType(SearchType.DEFAULT)
-		        .setQuery(QueryBuilders.matchQuery("player-id", playerID))
+		        .setQuery(QueryBuilders.matchQuery("player_id", p_playerID))
+		        .addSort("created", SortOrder.ASC)
 		        .setFrom(0).setSize(100).setExplain(true)
 		        .get();
 		
 		// ############## PARCOURIR LE RESULTAT DE LA REQUETE
 		SearchHits hits = response.getHits();
-		for (SearchHit hit : hits) {
-			logger.debug("Résultat = {}", hit.getSourceAsMap());
-			result.add(hit.getSourceAsMap());
+		for (SearchHit _hit : hits) {
+			logger.debug("Résultat = {}", _hit.getSourceAsMap());
+			result.add(_hit.getSourceAsMap());
 		}
 		
 		

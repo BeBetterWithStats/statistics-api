@@ -44,3 +44,8 @@ Description de l'API BBWS
 - [Documentation utilisation de l'API](https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html)
 - Delete all index : curl -X DELETE "localhost:9200/baseball-eu
 
+
+
+# TODO list
+- [ ] Gérer l'absence de query param player pour la route `/pa`
+- [ ] Ajouter un index permettant de trier une liste de document ES _play_ 

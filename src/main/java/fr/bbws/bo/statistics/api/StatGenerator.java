@@ -302,31 +302,68 @@ public class StatGenerator {
 		// ################## SENART 1
 
 		
+		// ################## RONCHIN
+/*
+		team.add(new Player("BEAUREPAIRE", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("PAYRISSAT", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("DESCAMPS E", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("CORDIER", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("MAOUCHE", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("ECKARDT", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("LEMETTRE Pa", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("DELEAU", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("LEMAIRE", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("LEMETTRE Pi", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("DE TIMMERMAN", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("BILLAU", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("COLLET", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("MAMMEZ", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("PICARD", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("DESGARDIN", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("JOSEPH", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("FOLLIOT", "RONCHIN", "&nbsp;", null, 0));
+		team.add(new Player("DE RYCKER", "RONCHIN", "&nbsp;", null, 0));
+*/				
+		
+		// ################## ERMONT
+		/*
+		team.add(new Player("KANINDA", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("BENAIN", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("LALARD", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("BIHET", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("VELON", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("LESOUEF", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("BRODIN", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("RAFFENNE", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("SOULIER", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("MESSAGER", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("TUR", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("TCHONANG", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("DEMOULIN", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("ROYO", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("DEVEZE", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("SOUVIGNET", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("NAIM", "ERMONT", "&nbsp;", null, 0));
+		team.add(new Player("HINET", "ERMONT", "&nbsp;", null, 0));
+		*/
+		
 		// ################## DUNKERQUE
-
-		team.add(new Player("BEAUREPAIRE", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("PAYRISSAT", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("DESCAMPS E", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("CORDIER", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("MAOUCHE", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("ECKARDT", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("LEMETTRE Pa", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("DELEAU", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("LEMAIRE", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("LEMETTRE Pi", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("DE TIMMERMAN", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("BILLAU", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("COLLET", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("MAMMEZ", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("PICARD", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("DESGARDIN", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("JOSEPH", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("FOLLIOT", "DUNKERQUE", "&nbsp;", null, 0));
-		team.add(new Player("DE RYCKER", "DUNKERQUE", "&nbsp;", null, 0));
+		
+		team.add(new Player("CONRARD", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("GODARD", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("RUSSO", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("LARRIDON", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("MOREAUX", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("MEURET B", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("GUEANT", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("GOKELAERE", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("PILLONS", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("BAES", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("RAVAIAU", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("JOETS", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("VERRAES", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("LAPORTE", "DUNKERQUE", "&nbsp;", null, 0));
 				
-		
-		// ################## DUNKERQUE
-		
 		
 // ############## FIN -- LISTE DES JOUEURS
 

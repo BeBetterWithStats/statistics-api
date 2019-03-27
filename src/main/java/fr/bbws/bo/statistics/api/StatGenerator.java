@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-class StatGenerator {
+public class StatGenerator {
 
 	static Map<String, KEY_WORDS> at_bat_key_words = new HashMap<String, KEY_WORDS>();
 
@@ -301,11 +301,31 @@ class StatGenerator {
 
 		// ################## SENART 1
 
-		team.add(new Player("ZOIA", "SENART", "&nbsp;", null, 0));
-		team.add(new Player("BRUNET", "SENART", "&nbsp;", null, 0));
-		team.add(new Player("BOUDET", "SENART", "&nbsp;", null, 0));
 		
-		// ################## EYSINES
+		// ################## DUNKERQUE
+
+		team.add(new Player("BEAUREPAIRE", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("PAYRISSAT", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("DESCAMPS E", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("CORDIER", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("MAOUCHE", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("ECKARDT", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("LEMETTRE Pa", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("DELEAU", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("LEMAIRE", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("LEMETTRE Pi", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("DE TIMMERMAN", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("BILLAU", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("COLLET", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("MAMMEZ", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("PICARD", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("DESGARDIN", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("JOSEPH", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("FOLLIOT", "DUNKERQUE", "&nbsp;", null, 0));
+		team.add(new Player("DE RYCKER", "DUNKERQUE", "&nbsp;", null, 0));
+				
+		
+		// ################## DUNKERQUE
 		
 		
 // ############## FIN -- LISTE DES JOUEURS

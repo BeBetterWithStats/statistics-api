@@ -102,23 +102,23 @@ public class Player {
 
 		
 		// RG si aucune frappe sur le troisieme base
-		// shift � droite possible
+		// shift a droite possible
 		if ( 0 == this.ab[KEY_WORDS.THIRD_BASE.intValue()]) {
 			left = left - this.ab[KEY_WORDS.LEFT_FIELD.intValue()];
 			center = center + this.ab[KEY_WORDS.LEFT_FIELD.intValue()];
-			return Integer.toString( left) + " | " +Integer.toString( center) + " | " + Integer.toString( right);
+			return Integer.toString( left) + " | " + Integer.toString( center) + " | " + Integer.toString( right);
 		}
 		
 		
 		// RG si aucune frappe sur le premiere base
-		// shift � gauche possible
+		// shift a gauche possible
 		if ( 0 == this.ab[KEY_WORDS.FIRST_BASE.intValue()]) {
 			right = right - this.ab[KEY_WORDS.RIGHT_FIELD.intValue()];
 			center = center + this.ab[KEY_WORDS.RIGHT_FIELD.intValue()];
-			return Integer.toString( left) + " | " +Integer.toString( center) + " | " + Integer.toString( right);
+			return Integer.toString( left) + " | " + Integer.toString( center) + " | " + Integer.toString( right);
 		}
 		
-		return Integer.toString( left) + " | " +Integer.toString( center) + " | " + Integer.toString( right);
+		return Integer.toString( left) + " | " + Integer.toString( center) + " | " + Integer.toString( right);
 
 	}	
 	

@@ -263,6 +263,7 @@ public class SprayChartGenerator {
 		at_bat_key_words.put(" struck out, reached first on a passed ball", KEY_WORDS.K_SWINGING);
 		at_bat_key_words.put(" struck out, reached first on a throwing error", KEY_WORDS.K_SWINGING);
 		at_bat_key_words.put(" struck out, reached first on a wild pitch", KEY_WORDS.K_SWINGING);
+		at_bat_key_words.put(" struck out, reached on a fielder's choice", KEY_WORDS.K_SWINGING);
 		hit_key_words.put(" tripled down the lf line", KEY_WORDS.LEFT_FIELD);
 		at_bat_key_words.put(" tripled down the lf line", KEY_WORDS.LEFT_FIELD);
 		hit_key_words.put(" tripled down the rf line", KEY_WORDS.RIGHT_FIELD);
@@ -294,7 +295,7 @@ public class SprayChartGenerator {
 // ############## LISTE DES JOUEURS & REPERTOIRE CONTENANT LES FEUILLES DE MATCH
 		
 		ArrayList<Path> file_directories = new ArrayList<Path>();
-		file_directories.add( Paths.get("/Users/alexandrelods/Documents/Developpement/bbws/Games/ForTest"));
+		file_directories.add( Paths.get("/Users/alexandrelods/Documents/Developpement/bbws/Games/stats 2018 N1 FR"));
 		
 //		team.add(new Player("", "", "", ""));
 
@@ -303,7 +304,7 @@ public class SprayChartGenerator {
 
 		
 		// ################## RONCHIN
-/*
+
 		team.add(new Player("BEAUREPAIRE", "RONCHIN", "&nbsp;", null, 0));
 		team.add(new Player("PAYRISSAT", "RONCHIN", "&nbsp;", null, 0));
 		team.add(new Player("DESCAMPS E", "RONCHIN", "&nbsp;", null, 0));
@@ -323,7 +324,7 @@ public class SprayChartGenerator {
 		team.add(new Player("JOSEPH", "RONCHIN", "&nbsp;", null, 0));
 		team.add(new Player("FOLLIOT", "RONCHIN", "&nbsp;", null, 0));
 		team.add(new Player("DE RYCKER", "RONCHIN", "&nbsp;", null, 0));
-*/				
+				
 		
 		// ################## ERMONT
 		/*
@@ -348,7 +349,7 @@ public class SprayChartGenerator {
 		*/
 		
 		// ################## DUNKERQUE
-		
+		/*
 		team.add(new Player("CONRARD", "DUNKERQUE", "&nbsp;", null, 0));
 		team.add(new Player("GODARD", "DUNKERQUE", "&nbsp;", null, 0));
 		team.add(new Player("RUSSO", "DUNKERQUE", "&nbsp;", null, 0));
@@ -363,7 +364,7 @@ public class SprayChartGenerator {
 		team.add(new Player("JOETS", "DUNKERQUE", "&nbsp;", null, 0));
 		team.add(new Player("VERRAES", "DUNKERQUE", "&nbsp;", null, 0));
 		team.add(new Player("LAPORTE", "DUNKERQUE", "&nbsp;", null, 0));
-				
+		*/		
 		
 // ############## FIN -- LISTE DES JOUEURS
 

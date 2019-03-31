@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-public class StatGenerator {
+public class SprayChartGenerator {
 
 	static Map<String, KEY_WORDS> at_bat_key_words = new HashMap<String, KEY_WORDS>();
 

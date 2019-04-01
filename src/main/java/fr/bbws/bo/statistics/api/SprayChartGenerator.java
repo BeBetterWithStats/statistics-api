@@ -161,6 +161,7 @@ public class SprayChartGenerator {
 		at_bat_key_words.put(" out on batter's interference", KEY_WORDS.OBR);
 		at_bat_key_words.put(" popped into double play 1b to 2b", KEY_WORDS.FIRST_BASE);
 		at_bat_key_words.put(" popped into double play 2b to 1b", KEY_WORDS.SECOND_BASE);
+		at_bat_key_words.put(" popped into double play 2b unassisted", KEY_WORDS.SECOND_BASE);
 		at_bat_key_words.put(" popped up to 1b", KEY_WORDS.FIRST_BASE);
 		at_bat_key_words.put(" popped up to 2b", KEY_WORDS.SECOND_BASE);
 		at_bat_key_words.put(" popped up to 3b", KEY_WORDS.THIRD_BASE);
@@ -304,7 +305,7 @@ public class SprayChartGenerator {
 
 		
 		// ################## RONCHIN
-
+		/*
 		team.add(new Player("BEAUREPAIRE", "RONCHIN", "&nbsp;", null, 0));
 		team.add(new Player("PAYRISSAT", "RONCHIN", "&nbsp;", null, 0));
 		team.add(new Player("DESCAMPS E", "RONCHIN", "&nbsp;", null, 0));
@@ -324,7 +325,7 @@ public class SprayChartGenerator {
 		team.add(new Player("JOSEPH", "RONCHIN", "&nbsp;", null, 0));
 		team.add(new Player("FOLLIOT", "RONCHIN", "&nbsp;", null, 0));
 		team.add(new Player("DE RYCKER", "RONCHIN", "&nbsp;", null, 0));
-				
+		*/
 		
 		// ################## ERMONT
 		/*
@@ -366,6 +367,20 @@ public class SprayChartGenerator {
 		team.add(new Player("LAPORTE", "DUNKERQUE", "&nbsp;", null, 0));
 		*/		
 		
+		// ################## BREAL
+		
+		team.add(new Player("VIDAL", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("FONTAINE", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("MAKDAD P", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("LOUIS L", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("MAKDAD S", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("MORIN", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("JACQUES", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("COLAS", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("DACOSTA", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("FREMONT", "BREAL", "&nbsp;", null, 0));
+		team.add(new Player("FRIN-MARIE", "BREAL", "&nbsp;", null, 0));
+			
 // ############## FIN -- LISTE DES JOUEURS
 
 		

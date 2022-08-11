@@ -300,7 +300,7 @@ public class SprayChartGenerator {
 // ############## LISTE DES JOUEURS & REPERTOIRE CONTENANT LES FEUILLES DE MATCH
 		
 		ArrayList<Path> file_directories = new ArrayList<Path>();
-		file_directories.add( Paths.get("/Users/alexandrelods/Documents/Developpement/bbws/Games/stats 2022 D2 FR"));
+		file_directories.add( Paths.get("/Users/alexandrelods/Documents/Developpement/bbws/Games/tmp"));
 		
 //		team.add(new Player("name", "team", "#jersey", "position", "ordre a la frappe"));
 

@@ -300,8 +300,8 @@ public class SprayChartGenerator {
 // ############## LISTE DES JOUEURS & REPERTOIRE CONTENANT LES FEUILLES DE MATCH
 		
 		ArrayList<Path> file_directories = new ArrayList<Path>();
-		// file_directories.add( Paths.get("/Users/alexandrelods/Documents/Developpement/bbws/Games/stats 2019 D2 PO"));
-		file_directories.add( Paths.get("/Users/alexandrelods/Documents/Developpement/bbws/Games/stats 2022 D2 FR"));
+		// file_directories.add( Paths.get("/Users/alexandrelods/Documents/Developpement/bbws/Games/stats 2022 D2 FR"));
+		file_directories.add( Paths.get("/Users/alexandrelods/Documents/Developpement/bbws/Games/tmp"));
 		
 //		team.add(new Player("name", "team", "#jersey", "position", "ordre a la frappe"));
 
@@ -329,7 +329,11 @@ public class SprayChartGenerator {
 		*/
 		
 		// ##################
-		team.add(new Player("GHULAMI", "PUC", "", null, 0));
+		team.add(new Player("LODS", "SENART", "", null, 0));
+		team.add(new Player("--", "PUC", "&nbsp;", null, 0));
+		team.add(new Player("ZOIA", "SENART", "", null, 0));
+		team.add(new Player("--", "PUC", "&nbsp;", null, 0));
+		team.add(new Player("BRUNET", "SENART", "", null, 0));
 		team.add(new Player("--", "PUC", "&nbsp;", null, 0));
 		
 		
@@ -476,7 +480,7 @@ public class SprayChartGenerator {
 	private static String generateHeaderHtml( Player player) {
 		
 		StringBuffer header = new StringBuffer()
-				.append("<html><title>&TITRE</title><body><h1>&TEAM</h1>")
+				.append("<html><title>&TEAM</title><body><h1>&TEAM</h1>")
 				.append("<style>")
 				.append(".player {")
 				.append("border : solid 1px;")
